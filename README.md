@@ -69,11 +69,10 @@ Please review our full analysis in [our Jupyter Notebook](./Microsoft%20Movie%20
 For any additional questions, please contact **Moses Kuria & moses.kuria@student.moringaschool.com**
 
 ## Repository structure
-
 ├── data                           
-├── images
-├── zippedData
-├── Microsoft-Movie-Analysis.ipnb    
-├── Microsoft-Movie-Analysis_Presentation.pdf	                       
-├── README.md                        
+├── images         
+├── zippedData    
+├── Microsoft-Movie-Analysis.ipnb              
+├── Microsoft-Movie-Analysis_Presentation.pdf	         
+├── README.md                                               
 
