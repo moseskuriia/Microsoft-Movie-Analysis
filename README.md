@@ -1,72 +1,86 @@
-# Phase 1 Project Template - Minimum Viable Product (MVP)
+# Microsoft Movie Analysis
 
-![blueprint](images/blueprint.png)
+**Authors**: Moses Kuria
 
-This repository is like a blueprint, providing structure for your first End of Phase Project. We suggest you base your Phase 1 project off of this repository so you can focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course. This template is designed to make your project portfolio-ready in order to impress the future employers who will review it. 
+## Overview
 
-## Repository Contents
+Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
 
-Below is a list of the contents of this repository - instructions for using them are in the next section.
+## Business Problem
 
-- `README.md`: The README for this repo branch explaining it's contents - you're reading it now
-- `TEMPLATE_README.md`: An example of a project README that provides a brief overview of your whole project
-- `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook with headings, code examples and guiding questions
-- `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project - here is an [editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy)
-- `zippedData` folder: A folder for the data you reference with your code
-- `images` folder: A folder for the images you reference in your files 
-- `.gitignore`: A hidden file that tells git to not track certain files and folders
-
-## Instructions For Using This Repository
-
-### Fork This Repository
-
-**For a group project**, have only one team member do these steps:
-
-1. Fork this repository to your personal account
-   - In GitHub, go to this repository and click the "Fork" button in the upper right
-   
-2. Change the name of your fork of this repo to a _descriptive_ name of your choosing
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Options" -> "Repository Name" -> "Rename"
-   - Make the name descriptive, since potential employers will read it. Ex: "Microsoft-Movie-Analysis" is better than "Project-1"
-
-3. Use `git clone` to clone your fork of this repo to your local computer
-
-4. **For a group project**, add team members as collaborators to your fork of this repo
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Manage Access" -> "Invite Teams or People"
-   - Add your project team members as collaborators & send them the repo GitHub URL
-
-### Work In Your Fork Of This Repository
-
-- Work in the repo clone that you created on your local machine
-- Start writing and coding in the Jupyter Notebook `dsc-phase1-project-template.ipynb`
-- Fill in the README template in `TEMPLATE_README.md`
-- Use `git add`, `git commit`, and `git push` often to update your repo in GitHub
-   - For a refresher on how to do this and why it's important, review Topic 2: Bash and Git
-
-### Use The Slide Template
-
-1. Go to [this link](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) to make an editable copy of the slide deck in your own Google Drive account
-2. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's
-3. **For a group project**, click the "Share" button and add your teammates as editors
-
-### Tidy Up Your Project
-
-- Change the file name of the Jupyter Notebook (`dsc-phase1-project-template.ipynb`) to something more descriptive
-- Save an appropriately-named PDF version of your slide deck to the repository
-- Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
-- Delete unnecessary files from the repo using `git rm`
-   - The presentation PDF: `DS_Project_Presentation_Template.pdf`
-   - Any unused data files in the `zippedData` folder
-   - Any unused images in the `images` folder
-- Utilize the .gitignore file to ignore large unzipped data files in the `zippedData` folder
-   - Add `*.csv`,`*.tsv`, and `*.db` to the .gitignore file
-
-### Submit Your Project
-
-To submit your project, please follow the instructions in the "Project Submission & Review" page in the Milestones course.
+The basis of the business problem is Microsoft trying to break into a market that is new to them. Their expertise is in Software products. The task is, therefore, to breakdown the market as a whole. What types of movies are made? What did it cost to make them? How much did they gross? What were their ratings? All of these are beneficial to a new player in an industry to have domain-specific knowledge and to focus their efforts on key areas.
 
 ***
-### Notes
+Questions to consider:
+* What are the business's pain points related to this project?
+* How did you pick the data analysis question(s) that you did?
+* Why are these questions important from a business perspective?
+***
 
-- The visualizations in the notebook use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting
-- The `dsc-phase1-project-template.ipynb` is intended to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go
+## Data
+
+Describe the data being used for this project.
+
+***
+Questions to consider:
+* Where did the data come from, and how do they relate to the data analysis questions?
+* What do the data represent? Who is in the sample and what variables are included?
+* What is the target variable?
+* What are the properties of the variables you intend to use?
+***
+
+## Methods
+
+Before I could utilize the variables aforementioned, the data had to undergo a process of preparation to ensure that the insights I would generate would be as accurate as possible. This included:
+* Dropping rows with empty values
+* Removing any duplicated rows
+* Making sure the data is in the correct format
+* Creating variables necessary for analysis
+* Dropping variables not needed in analysis
+
+## Results
+
+Present your key results. For Phase 1, this will be findings from your descriptive analysis.
+
+***
+Questions to consider:
+* How do you interpret the results?
+* How confident are you that your results would generalize beyond the data you have?
+***
+
+Here is an example of how to embed images from your sub-folder:
+
+### Visual 1
+![graph1](./images/YearvsNoMovies.png)
+
+## Conclusions
+
+Based on my analysis, this would be my recommendations to Microsoft:
+
+Microsoft studios should focus on making Dramas, Comedies, Action, Adventure and Thrillers in the beginning of their production.
+Microsoft studios should aim to release their movies in June, May and September if they want to optimize their revenue
+Microsoft studios should manage their movie production budgets as higher investments do not necessarily lead to higher profits.
+More analysis is needed to understand why movie releases have been less over the years since 2014 as well as to establish the Genres with the highest revenues.
+
+Some points to note would be that in the averagerating, some movies had more votes than others that went into the determination of the rating. This leads to some innate bias in the rating bias. For example, 1,841,066 people voted for Inception while only 5 people voted for The Lambirds.Inception has an 8.8 averagerating while The Lambirds has a 9.2 averagerating. This has some influence on the final rating as this is the averagerating, determined by the number of people voting and their overall votes.
+
+The gross data also contains a significant number of zeros that I chose to keep in the dataset. I found that there might be movies, however unrealistic, that did not generate any revenue. This could be due to a number of factors like inability to strike a deal with the companies owning cinemas, streaming services and so on. More investigation is needed to determine if this is the case. However, until then, I opt to keep them in my analysis.
+
+
+## For More Information
+
+Please review our full analysis in [our Jupyter Notebook](./Microsoft Movie Analysis.ipynb) or our [presentation](./Microsoft Movie Analysis Presentation.pdf).
+
+For any additional questions, please contact **Moses Kuria & moses.kuria@student.moringaschool.com*
+
+## Repository Structure
+
+Describe the structure of your repository and its contents, for example:
+
+```
+├── README.md                           <- The top-level README for reviewers of this project
+├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
+├── DS_Project_Presentation.pdf         <- PDF version of project presentation
+├── data                                <- Both sourced externally and generated from code
+└── images                              <- Both sourced externally and generated from code
+```
