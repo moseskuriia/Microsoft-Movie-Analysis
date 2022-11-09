@@ -51,18 +51,6 @@ The gross data also contains a significant number of zeros that I chose to keep 
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./Microsoft Movie Analysis.ipynb) or our [presentation](./Microsoft Movie Analysis Presentation.pdf).
+Please review our full analysis in ![our Jupyter Notebook](./Microsoft Movie Analysis.ipynb) or our ![presentation](./Microsoft Movie Analysis Presentation.pdf).
 
-For any additional questions, please contact **Moses Kuria & moses.kuria@student.moringaschool.com*
-
-## Repository Structure
-
-Describe the structure of your repository and its contents, for example:
-
-```
-├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf         <- PDF version of project presentation
-├── data                                <- Both sourced externally and generated from code
-└── images                              <- Both sourced externally and generated from code
-```
+For any additional questions, please contact **Moses Kuria & moses.kuria@student.moringaschool.com**
