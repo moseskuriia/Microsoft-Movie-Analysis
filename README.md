@@ -1,5 +1,7 @@
 # Microsoft Movie Analysis
 ![graph1](./images/director_shot.jpeg)
+
+
 **Authors**: Moses Kuria
 
 ## Overview
@@ -27,12 +29,23 @@ Before I could utilize the variables aforementioned, the data had to undergo a p
 * Dropping variables not needed in analysis
 
 ## Results
-
+## Visualizations
+Years vs No of movies
 ![graph1](./images/YearvsNoMovies.png)
+
+Movie Releases
 ![graph1](./images/moviereleases.png)
+
+Movie Revenue
 ![graph1](./images/movierevenue.png)
+
+Production Budget vs Average Rating
 ![graph1](./images/prodavg.png)
+
+Production Budget vs Revenue
 ![graph1](./images/prodrev.png)
+
+Production Budget vs ROI
 ![graph1](./images/popularitybyROI.png)
 
 ## Conclusions
@@ -51,6 +64,6 @@ The gross data also contains a significant number of zeros that I chose to keep 
 
 ## For More Information
 
-Please review our full analysis in ![our Jupyter Notebook](./Microsoft Movie Analysis.ipynb) or our ![presentation](./Microsoft Movie Analysis Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./Microsoft Movie Analysis.ipynb) or our [presentation](./Microsoft Movie Analysis Presentation.pdf).
 
 For any additional questions, please contact **Moses Kuria & moses.kuria@student.moringaschool.com**
