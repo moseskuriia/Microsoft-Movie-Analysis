@@ -64,6 +64,6 @@ The gross data also contains a significant number of zeros that I chose to keep 
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](.notebooks/Microsoft%20Movie%20Analysis.ipynb) or our [presentation](./Microsoft%20Movie%20Analysis%20Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./Microsoft%20Movie%20Analysis.ipynb) or our [presentation](./Microsoft%20Movie%20Analysis%20Presentation.pdf).
 
 For any additional questions, please contact **Moses Kuria & moses.kuria@student.moringaschool.com**
