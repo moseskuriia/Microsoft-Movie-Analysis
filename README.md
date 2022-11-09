@@ -67,3 +67,13 @@ The gross data also contains a significant number of zeros that I chose to keep 
 Please review our full analysis in [our Jupyter Notebook](./Microsoft%20Movie%20Analysis.ipynb) or our [presentation](./Microsoft%20Movie%20Analysis%20Presentation.pdf).
 
 For any additional questions, please contact **Moses Kuria & moses.kuria@student.moringaschool.com**
+
+## Repository structure
+
+├── data                           
+├── images
+├── zippedData
+├── Microsoft-Movie-Analysis.ipnb    
+├── Microsoft-Movie-Analysis_Presentation.pdf	                       
+├── README.md                        
+
