@@ -10,24 +10,12 @@ Microsoft sees all the big companies creating original video content and they wa
 
 The basis of the business problem is Microsoft trying to break into a market that is new to them. Their expertise is in Software products. The task is, therefore, to breakdown the market as a whole. What types of movies are made? What did it cost to make them? How much did they gross? What were their ratings? All of these are beneficial to a new player in an industry to have domain-specific knowledge and to focus their efforts on key areas.
 
-***
-Questions to consider:
-* What are the business's pain points related to this project?
-* How did you pick the data analysis question(s) that you did?
-* Why are these questions important from a business perspective?
-***
-
 ## Data
 
-Describe the data being used for this project.
+The Datasets used came from IMDB and The Numbers. 
+The data from IMDB contained movies with their titles, ratings, number of votes, genres and so on.
+The data from The Numbers contained movie titles and financials all of the financials utilized in this dataset for analysis
 
-***
-Questions to consider:
-* Where did the data come from, and how do they relate to the data analysis questions?
-* What do the data represent? Who is in the sample and what variables are included?
-* What is the target variable?
-* What are the properties of the variables you intend to use?
-***
 
 ## Methods
 
@@ -40,18 +28,12 @@ Before I could utilize the variables aforementioned, the data had to undergo a p
 
 ## Results
 
-Present your key results. For Phase 1, this will be findings from your descriptive analysis.
-
-***
-Questions to consider:
-* How do you interpret the results?
-* How confident are you that your results would generalize beyond the data you have?
-***
-
-Here is an example of how to embed images from your sub-folder:
-
-### Visual 1
 ![graph1](./images/YearvsNoMovies.png)
+![graph1](./images/moviereleases.png)
+![graph1](./images/movierevenue.png)
+![graph1](./images/prodavg.png)
+![graph1](./images/prodrev.png)
+![graph1](./images/popularitybyROI.png)
 
 ## Conclusions
 
