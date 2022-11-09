@@ -1,5 +1,5 @@
 # Microsoft Movie Analysis
-
+![graph1](./images/shot%201.jpeg)
 **Authors**: Moses Kuria
 
 ## Overview
